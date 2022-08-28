@@ -1,0 +1,14 @@
+.container-fluid{
+    background-color:blue;
+    color: white;
+    justify-content: center;
+
+}
+.row{
+    color: white;
+}
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+  }

@@ -22,16 +22,17 @@ function View_Offer() {
    const handleShow = () => setShow(true);
 
   
-  async function datafetch(){
+  const datafetch = async () => {
     let response = await fetch("http://localhost:4000/offer/offer",{
       method: "GET",
     });
-    let data =await response.json();
+    let data = await response.json();
     console.log("hello",data); 
     setData(data)
   }
-  useEffect(()=>{
-    datafetch();
+
+  useEffect(() =>{
+    datafetch()
   }, []);
 
 

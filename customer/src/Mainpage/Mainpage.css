@@ -1,0 +1,16 @@
+.p-3{
+    height:70px;
+    width: 80px;
+    background-color: blue;
+}
+.container{
+    height: 100px;
+    width: 100%;
+    
+}
+
+.card-body{
+    height:40px;
+    width: 40px;
+    background-color: black;
+}
